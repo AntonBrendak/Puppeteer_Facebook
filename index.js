@@ -33,7 +33,7 @@ const app = express();
 		await page.type('input[class="g5ia77u1 gcieejh5 bn081pho humdl8nn izx4hr6d rq0escxv oo9gr5id nc684nl6 jagab5yi knj5qynh fo6rh5oj fv0vnmcu ggphbty4 aov4n071 bi6gxh9e d2edcug0 lzcic4wl ieid39z1 aj8hi1zk r4fl40cc kd8v7px7 m07ooulj mzan44vs"]', "news", { delay: 30 })
 		await page.waitForTimeout(1000);
 		
-		await page.click('li[id="1758418281071392"]');
+		await page.click('li[id="2709"]');
 		const buttons = await page.$x('//div[@class="rq0escxv l9j0dhe7 du4w35lb j83agx80 pfnyh3mw taijpn5t bp9cbjyn owycx6da btwxx1t3 c4xchbtz by2jbhx6"]');
 		await buttons[0].click();
 		
